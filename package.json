@@ -1,0 +1,47 @@
+{
+  "name": "gridsome-plugin-pug",
+  "version": "0.0.1",
+  "description": "Pug plugin for Gridsome.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "format": "prettier --write \"*.{js,json}\"",
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gluons/gridsome-plugin-pug.git"
+  },
+  "keywords": [
+    "pug",
+    "pugjs",
+    "gridsome",
+    "gridsome-plugin"
+  ],
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gluons/gridsome-plugin-pug/issues"
+  },
+  "homepage": "https://github.com/gluons/gridsome-plugin-pug",
+  "peerDependencies": {
+    "gridsome": "*",
+    "pug": "2"
+  },
+  "dependencies": {
+    "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@gluons/prettier-config": "^2.0.0",
+    "eslint": "^5.15.2",
+    "eslint-config-gluons": "^4.1.0",
+    "prettier": "^1.16.4",
+    "pug": "^2.0.3",
+    "typescript": "^3.3.3333",
+    "webpack-chain": "^5.2.2"
+  }
+}
