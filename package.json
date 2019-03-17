@@ -9,6 +9,7 @@
     "index.d.ts"
   ],
   "scripts": {
+    "prepublishOnly": "npm run build",
     "prebuild": "rimraf index.js index.d.ts",
     "build": "tsc",
     "format": "prettier --write \"*.{js,json}\"",
