@@ -21,10 +21,12 @@ yarn add -D pug gridsome-plugin-pug
 ```js
 module.exports = {
 	plugins: [
-		use: 'gridsome-plugin-pug',
-		options: {
-			pug: { /* Options for `pug-plain-loader` */ },
-			pugLoader: { /* Options for `pug-loader` */ }
+		{
+			use: 'gridsome-plugin-pug',
+			options: {
+				pug: { /* Options for `pug-plain-loader` */ },
+				pugLoader: { /* Options for `pug-loader` */ }
+			}
 		}
 	]
 };
