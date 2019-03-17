@@ -11,9 +11,9 @@
 ## Installation
 
 ```bash
-npm install -D gridsome-plugin-pug
+npm install -D pug gridsome-plugin-pug
 # or
-yarn add -D gridsome-plugin-pug
+yarn add -D pug gridsome-plugin-pug
 ```
 
 ## Usage
