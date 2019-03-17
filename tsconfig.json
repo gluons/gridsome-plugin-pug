@@ -1,0 +1,9 @@
+{
+	"extends": "tsconfig-gluons",
+	"compilerOptions": {
+		"target": "es2015",
+		"sourceMap": false,
+		"outDir": "."
+	},
+	"files": ["index.ts"]
+}

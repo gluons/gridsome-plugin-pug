@@ -3,12 +3,16 @@
   "version": "0.0.1",
   "description": "Pug plugin for Gridsome.",
   "main": "index.js",
+  "typings": "index.d.ts",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "scripts": {
+    "prebuild": "rimraf index.js index.d.ts",
+    "build": "tsc",
     "format": "prettier --write \"*.{js,json}\"",
-    "lint": "eslint .",
+    "lint": "tslint -p .",
     "test": "npm run lint"
   },
   "repository": {
@@ -37,10 +41,14 @@
   },
   "devDependencies": {
     "@gluons/prettier-config": "^2.0.0",
-    "eslint": "^5.15.2",
-    "eslint-config-gluons": "^4.1.0",
+    "@types/node": "^8.3",
+    "@types/webpack": "^4.4.25",
     "prettier": "^1.16.4",
     "pug": "^2.0.3",
+    "rimraf": "^2.6.3",
+    "tsconfig-gluons": "^1.0.1",
+    "tslint": "^5.14.0",
+    "tslint-config-gluons": "^2.1.0",
     "typescript": "^3.3.3333",
     "webpack-chain": "^5.2.2"
   }
