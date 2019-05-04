@@ -51,6 +51,6 @@
     "tslint": "^5.14.0",
     "tslint-config-gluons": "^2.1.0",
     "typescript": "^3.3.3333",
-    "webpack-chain": "^5.2.2"
+    "webpack-chain": "^6.0.0"
   }
 }
