@@ -44,7 +44,7 @@
     "@gluons/prettier-config": "^2.0.0",
     "@types/node": "^8.3",
     "@types/webpack": "^4.4.25",
-    "prettier": "^1.16.4",
+    "prettier": "^2.0.0",
     "pug": "^2.0.3",
     "rimraf": "^3.0.0",
     "tsconfig-gluons": "^1.0.1",
