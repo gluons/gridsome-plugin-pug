@@ -2,10 +2,10 @@ dependencies:
   pug-loader: 2.4.0_pug@2.0.4
   pug-plain-loader: 1.0.0_pug@2.0.4
 devDependencies:
-  '@gluons/prettier-config': 2.0.0_prettier@1.18.2
+  '@gluons/prettier-config': 2.0.0_prettier@2.0.0
   '@types/node': 8.10.53
   '@types/webpack': 4.39.1
-  prettier: 1.18.2
+  prettier: 2.0.0
   pug: 2.0.4
   rimraf: 3.0.0
   tsconfig-gluons: 1.0.1_typescript@3.6.2
@@ -29,9 +29,9 @@ packages:
     dev: true
     resolution:
       integrity: sha512-PX4y5xQUvy0fnEVHrYOarRPXVWafSjTW9T0Hab8gVIawpl2Sj0ORyrygANq+KjcNlSSTw0YCLSNA8OyZ1I4yEg==
-  /@gluons/prettier-config/2.0.0_prettier@1.18.2:
+  /@gluons/prettier-config/2.0.0_prettier@2.0.0:
     dependencies:
-      prettier: 1.18.2
+      prettier: 2.0.0
     dev: true
     peerDependencies:
       prettier: '1'
@@ -459,13 +459,13 @@ packages:
   /path-parse/1.0.6:
     resolution:
       integrity: sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
-  /prettier/1.18.2:
+  /prettier/2.0.0:
     dev: true
     engines:
-      node: '>=4'
+      node: '>=10.13.0'
     hasBin: true
     resolution:
-      integrity: sha512-OeHeMc0JhFE9idD4ZdtNibzY0+TPHSpSSb9h8FqtP+YnoZZ1sl8Vc9b1sasjfymH3SonAF4QcA2+mzHPhMvIiw==
+      integrity: sha512-vI55PC+GFLOVtpwr2di1mYhJF36v+kztJov8sx3AmqbfdA+2Dhozxb+3e1hTgoV9lyhnVJFF3Z8GCVeMBOS1bA==
   /promise/7.3.1:
     dependencies:
       asap: 2.0.6
@@ -759,7 +759,7 @@ specifiers:
   '@gluons/prettier-config': ^2.0.0
   '@types/node': ^8.3
   '@types/webpack': ^4.4.25
-  prettier: ^1.16.4
+  prettier: ^2.0.0
   pug: ^2.0.3
   pug-loader: ^2.4.0
   pug-plain-loader: ^1.0.0
