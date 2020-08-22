@@ -34,7 +34,7 @@
   "homepage": "https://github.com/gluons/gridsome-plugin-pug",
   "peerDependencies": {
     "gridsome": "*",
-    "pug": "2"
+    "pug": "3"
   },
   "dependencies": {
     "pug-loader": "^2.4.0",
@@ -45,7 +45,7 @@
     "@types/node": "^8.3",
     "@types/webpack": "^4.4.25",
     "prettier": "^2.0.0",
-    "pug": "^2.0.3",
+    "pug": "^3.0.0",
     "rimraf": "^3.0.0",
     "tsconfig-gluons": "^1.0.1",
     "tslint": "^6.0.0",
