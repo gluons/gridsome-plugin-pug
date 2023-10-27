@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@gluons/prettier-config": "^2.0.0",
-    "@types/node": "^8.3",
+    "@types/node": "^20.0.0",
     "@types/webpack": "^4.4.25",
     "prettier": "^2.0.0",
     "pug": "^2.0.3",
