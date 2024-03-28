@@ -34,7 +34,7 @@
   "homepage": "https://github.com/gluons/gridsome-plugin-pug",
   "peerDependencies": {
     "gridsome": "*",
-    "pug": "2"
+    "pug": "3"
   },
   "dependencies": {
     "pug-loader": "^2.4.0",
