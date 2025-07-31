@@ -50,7 +50,7 @@
     "tsconfig-gluons": "^1.0.1",
     "tslint": "^6.0.0",
     "tslint-config-gluons": "^2.1.0",
-    "typescript": "^3.3.3333",
+    "typescript": "^5.0.0",
     "webpack-chain": "^6.0.0"
   }
 }
